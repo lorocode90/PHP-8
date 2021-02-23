@@ -9,7 +9,7 @@ function user($role) {
     return $role;
 }
 
-Ejemplo 1
+Ejemplo 2
 function user($role) {
     return $role ?? throw new Exception('Asigne un role de usuario');
 }
